@@ -1,0 +1,16 @@
+button{
+    height: 90px;
+    width: 290px;
+    font-size: 28px;
+    color: white;
+    border: none;
+    background-color: blue;
+    transition:all ;
+    transition-duration: 10000ms;
+}
+button:hover{
+    background-color: rgb(242, 77, 12);
+    border-radius: 25px;
+    color: rgb(239, 243, 7);
+    transform: scale(.3);
+}
